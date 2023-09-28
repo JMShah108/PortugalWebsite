@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Barbie_MediumItalic.ttf';
+    src: url(Barbie_MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Courier.ttf';
+    src: url(Courier.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.body {
+    height: 290vh;
+    background: linear-gradient(
+        to bottom,
+         rgb(255, 0, 43) 0%, 
+         rgb(255, 0, 43) 50%, 
+         green 50%, 
+         green 100%);
+}
+
+h1 {
+    font-family: 'Barbie_MediumItalic.ttf';
+    font-size: 100px;
+}
+
+h2 {
+    font-family: 'Courier.ttf';
+    font-size: 20px;
+}
+
+#L1 {
+    border-style:double;
+    border-radius: 10px;
+    border-width: 5px;
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    bottom: 5%;
+    left: 1%;
+}
+
+#L2 {
+    border-style:double;
+    border-radius: 10px;
+    border-width: 5px;
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    bottom: -50%;
+    right: 5%;
+}
+
+#L3 {
+    border-style:double;
+    border-radius: 10px;
+    border-width: 5px;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    bottom: -90%;
+    right: 64%;
+}
+
+#L4 {
+    border-style:double;
+    border-radius: 10px;
+    border-width: 5px;
+    width: 600px;
+    height: 450px;
+    position: absolute;
+    bottom: -140%;
+    right: 3%;
+}
+
+#L5 {
+    border-style:double;
+    border-radius: 10px;
+    border-width: 5px;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    bottom: -180%;
+    left: 3%;
+}
+
+#l1 {
+    font-size: 25px;
+    font-family: 'Courier.ttf';
+    position: absolute;
+    top: 95%;
+    left: 10%;
+}
+
+#l2 {
+    font-size: 25px;
+    font-family: 'Courier.ttf';
+    position: absolute;
+    bottom: -55%;
+    right: 9%;
+}
+
+#l3 {
+    font-size: 25px;
+    font-family: 'Courier.ttf';
+    position: absolute;
+    left: 2%;
+    bottom: -95%;
+}
+
+#l4 {
+    font-size: 25px;
+    font-family: 'Courier.ttf';
+    position: absolute;
+    left: 60%;
+    bottom: -145%;
+}
+
+#l5 {
+    font-size: 25px;
+    font-family: 'Courier.ttf';
+    position: absolute;
+    left: 5%;
+    bottom: -185%;
+}

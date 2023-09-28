@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+}
+@font-face {
+    font-family: 'Barbie_MediumItalic.ttf';
+    src: url(Barbie_MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Courier.ttf';
+    src: url(Courier.ttf);
+}
+
+.body {
+    height: 180vh;
+    background: linear-gradient(
+        to bottom,
+         rgb(255, 0, 43) 0%, 
+         rgb(255, 0, 43) 50%, 
+         green 50%, 
+         green 100%);
+
+}
+
+#LISBON {
+    border-style:double;
+    border-radius: 10px;
+    border-width: 5px;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 40%;
+    left: 1%;
+}
+
+#PORTO {
+    border-style:double;
+    border-radius: 10px;
+    border-width: 5px;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    bottom: -30%;
+    right: 1%;
+}
+
+#DOUROVALLEY {
+    border-style:double;
+    border-radius: 10px;
+    border-width: 5px;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 120%;
+    left: 2%;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: 'Barbie_MediumItalic.ttf';
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Barbie_MediumItalic.ttf';
+}
+
+h3 {
+    font-size: 18px;
+    font-family: 'Courier.ttf';
+}
+#created {
+    position: absolute;
+    bottom: -60%;
+    right: 5%;
+    font-family: 'Courier.ttf';
+}
+
+#email {
+    position: absolute;
+    bottom: -65%;
+    right: 5%;
+    font-family: 'Courier.ttf';
+}

@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Barbie_MediumItalic.ttf';
+    src: url(Barbie_MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Courier.ttf';
+    src: url(Courier.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.body {
+    height: 310vh;
+    background: linear-gradient(
+        to bottom,
+         rgb(255, 0, 43) 0%, 
+         rgb(255, 0, 43) 50%, 
+         green 50%, 
+         green 100%);
+}
+
+h1 {
+    font-family: 'Barbie_MediumItalic.ttf';
+    font-size: 100px;
+}
+
+h2 {
+    font-family: 'Courier.ttf';
+    font-size: 20px;
+}
+
+#P1 {
+    border-style:double;
+    border-radius: 10px;
+    border-width: 5px;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    bottom: 5%;
+    left: 1%;
+}
+
+#P2 {
+    border-style:double;
+    border-radius: 10px;
+    border-width: 5px;
+    width: 600px;
+    height: 450px;
+    position: absolute;
+    bottom: -50%;
+    right: 2%;
+}
+
+#P3 {
+    border-style:double;
+    border-radius: 10px;
+    border-width: 5px;
+    width: 550px;
+    height: 400px;
+    position: absolute;
+    bottom: -90%;
+    right: 61%;
+}
+
+#P4 {
+    border-style:double;
+    border-radius: 10px;
+    border-width: 5px;
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    bottom: -170%;
+    right: 3%;
+}
+
+#P5 {
+    border-style:double;
+    border-radius: 10px;
+    border-width: 5px;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    bottom: -200%;
+    left: 3%;
+}
+
+#p1 {
+    font-size: 25px;
+    font-family: 'Courier.ttf';
+    position: absolute;
+    top: 95%;
+    left: 7%;
+}
+
+#p2 {
+    font-size: 25px;
+    font-family: 'Courier.ttf';
+    position: absolute;
+    bottom: -55%;
+    right: 13%;
+}
+
+#p3 {
+    font-size: 25px;
+    font-family: 'Courier.ttf';
+    position: absolute;
+    left: 11%;
+    bottom: -95%;
+}
+
+#p4 {
+    font-size: 25px;
+    font-family: 'Courier.ttf';
+    position: absolute;
+    left: 63.4%;
+    bottom: -175%;
+}
+
+#p5 {
+    font-size: 25px;
+    font-family: 'Courier.ttf';
+    position: absolute;
+    left: 5%;
+    bottom: -205%;
+}
